@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accelator"
+        android:icon="@drawable/ic_home"
+        android:title="Casa"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/rotation"
+        android:icon="@drawable/ic_rest"
+        android:title="Restaurante"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_shopp"
+        android:title="Carrito de compras"
+        app:showAsAction="ifRoom"/>
 
 </menu>
